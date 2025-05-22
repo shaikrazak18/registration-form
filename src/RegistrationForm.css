@@ -1,0 +1,71 @@
+.form-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #000000; /* black background */
+  font-family: Arial, sans-serif;
+  color: #00ff00; /* bright green text */
+  box-shadow: 0 0 10px #00ff00aa; /* subtle green glow */
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00ff00;
+}
+
+.form-container label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #00ff00;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 2px solid #00ff00;
+  border-radius: 4px;
+  background-color: #111; /* very dark gray inside inputs */
+  color: #00ff00;
+  font-weight: bold;
+  transition: border-color 0.3s;
+}
+
+.form-container input::placeholder {
+  color: #00ff0077; /* lighter green placeholder */
+}
+
+.form-container input:focus {
+  border-color: #00cc00;
+  outline: none;
+  background-color: #000;
+  color: #00ff00;
+}
+
+.error {
+  color: #ff3333; /* bright red for errors */
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.form-container button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #00ff00;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+  background-color: #00cc00;
+  color: #fff;
+}
